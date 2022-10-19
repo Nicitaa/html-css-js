@@ -1,0 +1,41 @@
+
+body {
+  background-color: #202020;
+  color: #000000;
+}
+
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.features h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.features img {
+  width: 50px;
+  height: 50px;
+  -webkit-filter: invert(69%) sepia(39%) saturate(6215%) hue-rotate(64deg) brightness(99%) contrast(84%);
+          filter: invert(69%) sepia(39%) saturate(6215%) hue-rotate(64deg) brightness(99%) contrast(84%);
+  position: relative;
+}
+.features p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
